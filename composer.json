@@ -1,0 +1,20 @@
+{
+    "name": "konscia/processador-csv-votos-brasil-2022",
+    "description": "Executa transformações nos arquivos CSV oficiais do TSE dos votos das eleições 2022",
+    "type": "project",
+    "require": {
+        "league/climate": "^3.8"
+    },
+    "license": "MIT licence",
+    "autoload": {
+        "psr-4": {
+            "Konscia\\CSVBrazil2022VotesProcessor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kaléu Puskas",
+            "email": "kaleu@konscia.me"
+        }
+    ]
+}
